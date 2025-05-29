@@ -1,0 +1,7 @@
+{
+  "activePlugins": "Active Plugins: {{count}}",
+  "toggleSidebar": "Toggle Sidebar",
+  "toggleTheme": "Toggle Theme",
+  "userMenu": "User Menu",
+  "logout": "Logout"
+}

@@ -1,0 +1,7 @@
+{
+  "activePlugins": "已启用插件：{{count}}个",
+  "toggleSidebar": "切换侧边栏",
+  "toggleTheme": "切换主题",
+  "userMenu": "用户菜单",
+  "logout": "退出登录"
+}

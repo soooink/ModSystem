@@ -43,7 +43,7 @@ const Header = ({ onToggleSidebar, activePluginsCount }: HeaderProps) => {
               size="icon"
               onClick={onToggleSidebar}
               className="h-9 w-9"
-              aria-label="切换侧边栏"
+              aria-label={t('toggleSidebar')}
             >
               <Menu className="h-5 w-5" />
             </Button>
@@ -65,7 +65,7 @@ const Header = ({ onToggleSidebar, activePluginsCount }: HeaderProps) => {
               size="icon"
               onClick={toggleTheme}
               className="h-9 w-9"
-              aria-label="切换主题"
+              aria-label={t('toggleTheme')}
             >
               {isDarkTheme ? (
                 <Sun className="h-5 w-5" />
@@ -82,7 +82,7 @@ const Header = ({ onToggleSidebar, activePluginsCount }: HeaderProps) => {
                     variant="ghost"
                     size="icon"
                     className="h-9 w-9"
-                    aria-label="用户菜单"
+                    aria-label={t('userMenu')}
                   >
                     <User className="h-5 w-5" />
                   </Button>
@@ -93,7 +93,7 @@ const Header = ({ onToggleSidebar, activePluginsCount }: HeaderProps) => {
                     className="text-destructive"
                   >
                     <LogOut className="mr-2 h-4 w-4" />
-                    退出登录
+                    {t('logout')}
                   </DropdownMenuItem>
                 </DropdownMenuContent>
               </DropdownMenu>
